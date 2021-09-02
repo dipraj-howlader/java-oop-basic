@@ -17,7 +17,11 @@ public class Teacher {
 	void PrintDipraj(String name) {
 		System.out.println(name);
 	}
-	
+	void usingCons (String nme, String gen, int num) {
+		name = nme;
+		gender = gen;
+		phone = num;
+	}
 	// returning  values
 	
 	double sumofTwoDigit (int a ,int b) {

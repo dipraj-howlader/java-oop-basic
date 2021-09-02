@@ -20,5 +20,10 @@ public class Test {
 		teacher1.PrintDipraj("Dipa");
 		
 		System.out.println(teacher1.sumofTwoDigit(5, 5));
+		
+		Teacher teacher3 = new Teacher();
+		teacher3.usingCons("Dipra", "mama", 256565);
+		teacher3.displayInfo();
+		
 	}
 }
