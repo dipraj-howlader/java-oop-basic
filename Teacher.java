@@ -9,7 +9,7 @@ public class Teacher {
 		System.out.println("Name " + name);
 		System.out.println("Gender " + gender);
 		System.out.println("Phone " + phone);
-
+		
 	}
 	
 	//Passing Parameter
@@ -27,4 +27,14 @@ public class Teacher {
 	double sumofTwoDigit (int a ,int b) {
 		return a+b;
 	}
+	//make construtor
+	//specifc type of method
+	//no return type
+	//Name will be class name
+//	Teacher(String n,String g , int nu){
+//		name = n;
+//		gender = g;
+//		phone = nu;
+//	}
+	
 }
